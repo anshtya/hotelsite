@@ -1,0 +1,83 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    /* background-color: black; */
+    background: url("/img/main_background.jpg");
+    background-size: cover; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+}
+
+.midLogo {
+    /* border: 2px solid red; */
+    display: block;
+    margin: 20px auto;
+}
+
+.midLogo img {
+    filter: invert();
+    display: block;
+    margin: auto;
+    width: 119px;
+}
+
+.btn {
+    font-family: inherit;
+    background-color: rgb(208 200 200);
+    color:black;
+    cursor: pointer;
+    padding: 10px 14px;
+    margin: 0px 4px;
+    font-size: 19px;
+}
+
+.btn:hover {
+    background-color: rgb(132 67 44);
+    border-radius: 5px;
+}
+
+
+.container {
+    background-color: rgb(108 83 83);
+    border: 2px solid white;
+    border-radius: 18px;
+    width: 40%;
+    margin: 43px auto;
+    padding: 1px;
+}
+
+.form-group input {
+    display: block;
+    width: 500px;
+    padding: 1px;
+    margin: 11px auto;
+    font-size: 25px;
+}
+
+.container button {
+    display: block;
+    margin: 18px auto;
+    width: 300px;
+    border: none;
+
+}
+
+.goto-signin {
+    color:black;
+    text-align: center;
+}

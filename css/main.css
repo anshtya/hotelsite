@@ -1,0 +1,127 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url("/img/main_background.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.left {
+    position: absolute;
+    /* display: inline-block; */
+    /* border: 2px solid red; */
+    left: 34px;
+    top: 22px;
+}
+
+.left img {
+    width: 64px;
+    filter: invert();
+}
+
+.left div {
+    line-height: 28px;
+    margin: 0px -9px;
+}
+
+.mid {
+    width: 28%;
+    margin: 12px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 22px;
+    /* display: inline-block; */
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 37px 11px;
+}
+
+.navbar li a:hover {
+    color: grey;
+    text-decoration: none;
+    padding: 37px 11px;
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: inherit;
+    margin: 0px 4px;
+    color: white;
+    /* background-color: #362323; */
+    background-color: transparent;
+    padding: 4px 14px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(100, 92, 92);
+    border-radius: 5px;
+}
+
+.container {
+    border: 2px solid white;
+    margin: 76px 80px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    display: block;
+    width: 500px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 500px;
+    margin: 2px auto;
+    border: 2px solid white;
+}
+
+.hotelAbout {
+    /* border: 2px solid red; */
+    margin: 52px auto;
+    padding: 23px;
+    text-align: justify;
+    background-color: #955050;
+}
+
+.hotelImages img {
+    width: 25%;
+    margin: 30px 4px;
+}
+
+#pic1 {
+    width: 22%;
+}

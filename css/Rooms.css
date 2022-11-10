@@ -1,0 +1,43 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url("/img/main_background.jpg");
+    background-size: cover;
+    color: white;
+}
+
+.midLogo {
+    /* border: 2px solid red; */
+    display: block;
+    margin: 20px auto;
+}
+
+.midLogo img {
+    filter: invert();
+    display: block;
+    margin: auto;
+    width: 119px;
+}
+
+.midLogo h3 {
+    text-align: center;
+}
+
+.room-info {
+    margin: 20px auto;
+    padding: 23px;
+    text-align: justify;
+}
+
+.img-grp {
+    /* border: 2px solid pink; */
+    display: inline-block;
+    width: 40%;
+    margin: 6px 64px;    
+    padding: 10px;
+}
+
+.img-grp img {
+    width: 80%;
+}
