@@ -4,7 +4,7 @@ body {
     padding: 0px;
     color: white;
     /* background-color: black; */
-    background: url("./img/main_background.jpg");
+    background: url("/img/main_background.jpg");
     background-size: cover; 
 }
 
