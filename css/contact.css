@@ -2,14 +2,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     padding: 0px;
-    color: white;
     /* background-color: black; */
     background-size: cover; 
 }
 
 a {
     text-decoration: none;
-    color: black;
 }
 
 a:hover {
@@ -38,7 +36,6 @@ h3 {
 .btn {
     font-family: inherit;
     background-color: rgb(208 200 200);
-    color:black;
     cursor: pointer;
     padding: 10px 14px;
     margin: 0px 4px;
