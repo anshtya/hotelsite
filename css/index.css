@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+}
+
 /* Navigation Bar */
 #navbar{
     display: flex;
