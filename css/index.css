@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
     padding: 0px;
@@ -7,8 +7,6 @@ body {
 
 .left {
     position: absolute;
-    /* display: inline-block; */
-    /* border: 2px solid red; */
     left: 34px;
     top: 22px;
 }
@@ -26,15 +24,12 @@ body {
 .mid {
     width: 28%;
     margin: 12px auto;
-    /* border: 2px solid green; */
 }
 
 .right {
     position: absolute;
     right: 34px;
     top: 22px;
-    /* display: inline-block; */
-    /* border: 2px solid yellow; */
 }
 
 .navbar {
@@ -60,7 +55,6 @@ body {
 .btn {
     font-family: inherit;
     margin: 0px 4px;
-    /* background-color: #362323; */
     background-color: transparent;
     padding: 4px 14px;
     border: none;
@@ -105,7 +99,6 @@ body {
 }
 
 .hotelAbout {
-    /* border: 2px solid red; */
     margin: 52px auto;
     padding: 23px;
     text-align: justify;
@@ -119,4 +112,4 @@ body {
 
 #pic1 {
     width: 22%;
-}
+} */
