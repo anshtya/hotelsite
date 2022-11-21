@@ -2,8 +2,27 @@
     margin: 0;
 }
 
+/*Logo Name*/
+#logo-name{
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
 /* Navigation Bar */
 #navbar{
-    display: flex;
     align-items: center;
+    overflow: hidden;
+    background-color: green;
+    color: white
+}
+
+#navbar-pages a{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
