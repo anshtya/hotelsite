@@ -1,28 +1,28 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 /*Logo Name*/
 #logo-name{
     float: left;
-    text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
 }
 
 /* Navigation Bar */
 #navbar{
-    align-items: center;
+    text-align: center;
     overflow: hidden;
-    background-color: green;
-    color: white
+    background-color: #00807b;
+    font-size: 17px;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
 }
 
 #navbar-pages a{
     float: right;
-    text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
 }
