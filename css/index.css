@@ -22,7 +22,7 @@
     color: white;
 }
 
-#navbar-pages a{
+#navbar-pages li{
     float: right;
     padding: 14px 16px;
 }
